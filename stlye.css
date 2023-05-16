@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    height: 60px;
+}
+header{
+    background-color: #ffff00;
+    color: blue;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    
+}
+#heading{
+    font-size: medium;
+    font-style: italic;
+}
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: small;
+}
+nav ul li a{
+    text-decoration: none;
+}
+#mind{
+    padding-top: 40px;
+}
+.business{
+    justify-content: space-between;
+    text-align: center;
+    color: navy;
+}
+.business h3{
+    margin-top: 10px;
+}
+.your{
+    padding-top: 20px;
+    margin-left: 80px;
+    color: navy;
+}
+#reson{
+    padding-top: 20px;
+    color: navy;
+}
+.resonation{
+    margin-left: 80px;
+}
+.resonation p{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+#hypo{
+    padding-top: 20px;
+    color: navy;
+}
+.hypothtetically{
+    margin-left: 80px;
+}
+.hypothtetically p{
+    padding-top: 10px;
+    margin-right: 35px;
+}
+#img img{
+    height: 500px;
+    width: 1300px;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+#trauma{
+    padding-top: 20px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color: navy;
+}
+.kenny p{
+    padding-top: 10px;
+}
+.img2 img{
+    height: 500px;
+    width: 1300px;
+    padding-left: 80px;
+    margin-top: 20px;
+}
+#concept{
+    padding-top: 20px;
+    color: navy;
+}
+.failure{
+    margin-left: 80px;
+}
+.failure li{
+    padding-top: 10px;
+    margin-right: 35px;
+}
+#edu{
+    padding-top: 20px;
+    color: navy;
+}
+.education{
+    margin-left: 80px;
+}
+.education p{
+    padding-top: 10px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+#conclussion{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: black;
+}
+#conclussion h1{
+    color: orangered;
+    padding-bottom: 10px;
+}
+#conclussion ul li a{
+    color: white;
+    text-decoration: none;
+}
+#conclussion ul li{
+    margin: 10px;
+}
+.handles{
+    margin-left: 80px;
+}
+.news p{
+    color: orangered ;
+    padding-bottom: 10px;
+    margin-right: 100px;
+}
+input{
+    height: 30px;
+}
+button{
+    background-color: orangered;
+    width: 100px;
+    height: 30px;
+}
